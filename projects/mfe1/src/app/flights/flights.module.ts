@@ -4,13 +4,14 @@ import { FlightsSearchComponent } from './flights-search/flights-search.componen
 import { RouterModule } from '@angular/router';
 import { FLIGHTS_ROUTES } from './flights.routes';
 
+
 @NgModule({
   imports: [
     CommonModule,
     RouterModule.forChild(FLIGHTS_ROUTES)
   ],
   declarations: [
-    FlightsSearchComponent
+    FlightsSearchComponent,
   ]
 })
 export class FlightsModule { }
